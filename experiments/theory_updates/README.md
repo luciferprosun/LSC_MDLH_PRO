@@ -10,3 +10,7 @@ Use this folder for:
 - formal repair notes,
 - simulation-driven adjustments,
 - and theory-line deltas that are not tied to a single model report.
+
+Key public note:
+
+- `2026-04-30_public_note.md` for a short DOI-side summary.
