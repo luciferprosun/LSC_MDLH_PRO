@@ -12,6 +12,7 @@ placed on different tasks.
 - source-review status
 - experimental flags
 - machine-readable summaries
+- dated theory update notes
 
 ## Current model slots
 
@@ -24,6 +25,7 @@ placed on different tasks.
 ## Status
 
 - DeepSeek has been ingested as a real review, not just a pending slot.
+- the 6.2.2 correction has been recorded as a separate theory update note.
 
 ## What does not belong here
 

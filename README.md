@@ -42,6 +42,8 @@ experiments/
     2026-04-30_gpt.md
     2026-04-30_manus.md
     2026-04-30_deepseek.md
+  theory_updates/
+    2026-04-30_lsc_6_2_2_correction.md
 paper/
   LSC_MDLH_PRO.tex
   LSC_MDLH_PRO.pdf
@@ -73,6 +75,7 @@ The first lineage report records the progression:
 - Gemini: gap analysis and conservative reframing in LSC 6.2.0
 - Codex: reproducibility and leave-one-out validation in LSC 6.2.1
 - DeepSeek: formal review of LSC 6.2.0 consistency and defense gaps
+- LSC 6.2.2: corrected continuation with explicit trace/anisotropy split and simulation outputs
 
 ## DeepSeek Review Snapshot
 
@@ -86,6 +89,16 @@ be fixed before any defense-oriented presentation:
 - frame ambiguity for sidereal modulation,
 - the need for experiment-specific likelihoods,
 - and the need for leave-one-out stability checks.
+
+## 6.2.2 Theory Update Snapshot
+
+The 6.2.2 correction does not claim validation. It formalizes the repair path
+triggered by the DeepSeek review:
+
+- explicit isotropic trace,
+- traceless anisotropy separated from the trace,
+- fixed celestial frame for sidereal tests,
+- deterministic simulation outputs for term decomposition and directional scans.
 
 ## Build Paper
 

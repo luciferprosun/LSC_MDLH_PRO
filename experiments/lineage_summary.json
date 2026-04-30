@@ -33,5 +33,13 @@
       "scientific_change": "identified dimension, tensor-average, and frame-definition problems that must be fixed before defense",
       "review_status": "source-backed review"
     }
+  },
+  "theory_updates": {
+    "lsc_6_2_2": {
+      "primary_contribution": "formal correction and simulation layer",
+      "lsc_version": "LSC 6.2.2",
+      "scientific_change": "separated isotropic trace from traceless anisotropy, removed ambiguous detector scaling, and added deterministic simulations",
+      "review_status": "formal repair, not validation"
+    }
   }
 }
