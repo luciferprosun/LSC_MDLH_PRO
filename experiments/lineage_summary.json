@@ -26,7 +26,12 @@
       "lsc_version": "LSC 6.2.1",
       "scientific_change": "exposed weak predictive stability despite exact anchor fits",
       "review_status": "historical, source-backed"
+    },
+    "deepseek": {
+      "primary_contribution": "formal consistency review",
+      "lsc_version": "LSC 6.2.0 review slot",
+      "scientific_change": "identified dimension, tensor-average, and frame-definition problems that must be fixed before defense",
+      "review_status": "source-backed review"
     }
   }
 }
-

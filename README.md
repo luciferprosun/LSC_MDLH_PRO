@@ -41,6 +41,7 @@ experiments/
     2026-04-30_gemini.md
     2026-04-30_gpt.md
     2026-04-30_manus.md
+    2026-04-30_deepseek.md
 paper/
   LSC_MDLH_PRO.tex
   LSC_MDLH_PRO.pdf
@@ -71,6 +72,20 @@ The first lineage report records the progression:
 - Manus: integration and packaging in LSC 5.5
 - Gemini: gap analysis and conservative reframing in LSC 6.2.0
 - Codex: reproducibility and leave-one-out validation in LSC 6.2.1
+- DeepSeek: formal review of LSC 6.2.0 consistency and defense gaps
+
+## DeepSeek Review Snapshot
+
+DeepSeek did not validate the theory. It identified concrete issues that need to
+be fixed before any defense-oriented presentation:
+
+- a dimensionally inconsistent detector term (`1 / E^2` appears in one formula
+  but not the main ansatz),
+- the trace-free tensor problem, which makes the pure anisotropy term average to
+  zero in symmetric gallium setups,
+- frame ambiguity for sidereal modulation,
+- the need for experiment-specific likelihoods,
+- and the need for leave-one-out stability checks.
 
 ## Build Paper
 

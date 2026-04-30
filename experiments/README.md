@@ -13,6 +13,18 @@ placed on different tasks.
 - experimental flags
 - machine-readable summaries
 
+## Current model slots
+
+- GPT
+- Manus
+- Gemini
+- Codex
+- DeepSeek
+
+## Status
+
+- DeepSeek has been ingested as a real review, not just a pending slot.
+
 ## What does not belong here
 
 - raw API tokens
@@ -22,4 +34,3 @@ placed on different tasks.
 ## Current experimental flag
 
 See [`EXPERIMENTAL_FLAG.md`](./EXPERIMENTAL_FLAG.md).
-
