@@ -138,6 +138,19 @@ verification workflow. The purpose is to preserve instructions, role
 assignments, iteration design, and response-analysis templates so model
 coherence and disagreement can be audited later.
 
+## Research Operations and Grant Readiness
+
+The project operations layer is available in:
+
+```text
+research-operations/
+```
+
+It defines the working names, dated action log, reminder schedule, and
+grant-facing framing for the Model-Lineage Audit Lab. This track keeps the
+project positioned as an AI-safety and scientific-reasoning audit, with LSC used
+as a complex case study rather than as a validated physics claim.
+
 ## DeepSeek Review Snapshot
 
 DeepSeek did not validate the theory. It identified concrete issues that need to
